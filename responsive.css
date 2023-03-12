@@ -1,0 +1,20 @@
+/*untuk tablet*/
+@media all and (max-width: 1000px){
+    .main-container .list-menu .list-menu-ver li{
+        display: inline-block;
+    }
+}
+
+/*untuk handphone*/
+@media all and (max-width: 670px){
+    .main-container .list-menu .list-menu-ver{
+        display: none;
+    }
+
+    .main-container .list-menu .icon-burger .fa{
+        display: inline-block;
+        line-height: 50px;
+        float: right;
+        margin-right: 10px;
+    }
+}
