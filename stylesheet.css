@@ -123,8 +123,9 @@ table {
 .main-container main .container .tentang-saya p{
     font-family: sans-serif;
     font-weight: lighter;
-    width: 1170px;
+    width: 80%;
     margin: auto;
+    font-size: 15px;
 }
 
 .main-container main .container .proyek-contoh{
@@ -149,7 +150,7 @@ table {
 }
 
 .main-container main .container .proyek-contoh .list-item img{
-    width: 70%;
+    width: 50%;
     margin-bottom: 30px;
 }
 
@@ -186,7 +187,7 @@ table {
 .main-container main .container .hubungi-saya .container textarea{
     width: 50%;
     margin: auto;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 20px;
 }
 

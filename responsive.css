@@ -7,8 +7,49 @@
 
 /*untuk handphone*/
 @media all and (max-width: 670px){
+
+    .main-container main .container .tentang-saya h2{
+        font-weight: bold;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .main-container main .container .tentang-saya p{
+        font-family: sans-serif;
+        font-weight: lighter;
+        width: 80%;
+        margin: auto;
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .main-container header .right-logo h1{
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 50px;
+        margin: 0 15px 0 15px;
+    }
+
+    .main-container main .container .proyek-contoh .list-item .list1,
+    .main-container main .container .proyek-contoh .list-item .list2,
+    .main-container main .container .proyek-contoh .list-item .list3{
+        width: 100%;
+    }
+
     .main-container .list-menu .list-menu-ver{
         display: none;
+    }
+
+   
+    .main-container main .container .head-main .main-h1{
+        font-size: 50px;
+    }
+
+    .main-container main .container .head-main .second-h1{
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        margin-top: 20px;
     }
 
     .main-container .list-menu .icon-burger .fa{
@@ -17,4 +58,45 @@
         float: right;
         margin-right: 10px;
     }
+
+    .main-container .hubungi-saya h2{
+        font-size: 15px;
+    }
+
+    .main-container .hubungi-saya .container .fi{
+        width: 100%;
+        margin: auto;
+    }
+
+    .main-container main .container .hubungi-saya .container input,
+    .main-container main .container .hubungi-saya .container textarea{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .main-container main .container .hubungi-saya .container .input{
+        width: 80%;
+        margin: auto;
+    }
+
+    .main-container footer .container .left-logo h1{
+        font-size: 20px;
+        letter-spacing: 5px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .main-container footer .container .list-footer{
+        font-size: 10px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .main-container footer .container .list-footer .list-items li{
+        margin-bottom: 10px;
+    }
+
 }
